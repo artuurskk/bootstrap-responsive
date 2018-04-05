@@ -1,0 +1,122 @@
+body{
+    background-color:#696969;
+}
+.container {
+    max-width: 320px;
+    height:360px;
+    background:url('../images/bg-phone.jpg') no-repeat;
+}
+
+h1.yes,h1.loans{
+    color: #4A4A4A;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:17px;
+    font-size: 30px;
+    line-height: 36px;
+}
+h1.loans {
+     padding-top:31px;
+}
+h1.yes,h1.loans,p.description,.button{
+    margin-left:10px;
+}
+p.description{
+    color: #4A4A4A;
+    font-size:18px;
+    line-height:24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    width:300px;
+}
+h1.yes,h1.loans{
+    margin-bottom:17px;
+    font-size: 30px;
+    line-height: 36px;
+}
+.rect {
+    margin-left:-15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width:320px;
+    height:360px;
+}
+.button {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height:39px;
+    text-align: center;
+    height: 40px;
+    background-color: #395EAB;
+    margin-top:30px;
+    width:300px;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+/* 3.Tablet */
+@media (min-width: 768px)  {
+    .container {
+        max-width: 768px;
+        height:444px;
+        background-image:url('../images/bg-tablet.jpg');
+    }
+    h1.yes,h1.loans,p.description,.button{
+        margin-left:19px;
+    }
+    h1.yes,h1.loans{
+        font-size: 38px;
+        line-height: 48px;
+    }
+    h1.loans {
+        margin-bottom:21px;
+        padding-top:84px;
+    }
+    h1.yes{
+        margin-bottom:26px;
+    }
+    .rect{
+        background-color: rgba(255, 255, 255, 0);
+        background-image:url('../images/rect.png');
+        height: 444px;
+        width: 683px;
+    }
+    .button{
+        width: 200px;
+        margin-top:20px;
+    }
+    p.description{
+        width:397px;
+    }
+}
+/* 2.Desktop */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        height:444px;
+        background-image: url('../images/bg-desktop.jpg');
+    }
+    h1.yes, h1.loans, p.description, .button {
+        margin-left: 27px;
+    }
+    .button {
+        width: 199px;
+    }
+    p.description {
+        width: 484px;
+    }
+}
+/* 1.Desktop - HD */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        height:444px;
+        background-image:url('../images/bg-hd.jpg');
+    }
+    h1.yes,h1.loans,p.description,.button{
+        margin-left:135px;
+    }
+    .rect{
+        background-image:url('../images/rect-hd.png');
+        width: 823px;
+    }
+}
